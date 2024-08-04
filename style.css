@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-left: 150px;
+    margin-top: 50px;
+    /* box-shadow: 10px 10px 5px 38px rgba(181,172,172,0.61); */
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+}
+.main-sec{
+    margin-left: 250px; 
+    margin-top: 75px;
+    
+    
+    
+}
+.first{
+    margin-top: 60px;
+}
+.first h3{
+    margin-left: 290px;
+}
+.a-1 h1{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.a-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+   margin-left: 150px;
+}
+.first{
+    margin-left:350px;
+}
+.b-1 h1{
+    font-weight: bold;
+}
+.p-1,.p-2,.p-3,.p-4,.p-5,.p-6,.p-7{
+    line-height: 2.5;
+    letter-spacing: 2;
+    word-spacing: 3px;
+    
+}
+.b-2 ul,.b-5 ul{
+    margin-left: 50px;
+}
+.b-6 h1{
+    margin-left:30px ;
+}
+.b-6 h2{
+    margin-left: 310px;
+}
+.b-7 h5{
+    margin-left: 340px;
+    font-family: initial;
+    color: rgb(58, 58, 58);
+}
+.b-8 .h-1{
+    color: rgb(196, 34, 34);
+    text-decoration: underline;
+    font-size: 20px;
+}
+.b-8 h6{
+    font-size: 16px;
+    color: rgb(41, 40, 40);
+    font-weight: normal;
+    font-family:initial;
+}
+.c-3{
+    display: flex;
+     /* align-items: center; */
+
+}
+.c-3 img{
+    border-radius: 60px;
+    height: 80px;
+    width: 80px;
+}
+.bex{
+    margin-left: 40px;
+    font-size: 13px;
+    line-height: 1.8;
+    color: rgb(27, 27, 27);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.c-4 h1{
+    margin-left: 370px;
+}
+.foot{
+    background-color: black;
+    height: 150px;
+}
+.foot,.f-1{
+    display: flex;
+    align-items: center;
+    
+}
+.f-1,.f-2{
+    margin-left: 150px;
+}
+.f-2 i{
+    width: 45px;
+}
+.f-2{
+    margin-left: 350px;
+}
+button{
+    margin-left: 650px;
+    padding: 0;
+    border: 0;
+}
+button:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    
+    
+}
+.find a,.home a, .art a, .tour a,.about a{
+    display: block;
+    text-decoration: none;
+    color: rgb(46, 48, 47);
+    
+}
+.find .con, .home .con, .art .con,.tour .con,.about .con {
+    position: absolute;
+    display: none;
+    padding: 20px;
+    background-color: rgb(219, 218, 218);
+    font-size: 20px;
+}
+.find:hover .con, .home:hover .con, .art:hover .con, .tour:hover .con,.about:hover .con{
+    display: block;
+    
+}
+.find a:hover, .home a:hover,.art a:hover,.tour a:hover,.about a:hover {
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+.search input{
+    display: block;
+
+}
+.search .con{
+    position: absolute;
+    display: none;
+}
+.search:hover .con{
+    display: block;
+}
+input{
+    width: 100px;
+    height: 25px;
+}
